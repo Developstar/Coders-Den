@@ -81,6 +81,37 @@ let changed = challenge.replace('JavaScript', 'Python');
 console.log(changed);
 
 
+// What is character at index 15 in '30 Days Of JavaScript' string? Use charAt() method.
+/*
+let challenge = '30 Days Of JavaScript'
+*/
+
+let charChar = challenge.charAt(15);
+console.log(charChar)
+
+
+//What is the character code of J in '30 Days Of JavaScript' string using charCodeAt()
+/*
+let challenge = '30 Days Of JavaScript'
+*/
+console.log(challenge.charCodeAt("J"))
+
+
+//Use indexOf to determine the position of the first occurrence of a in 30 Days Of JavaScript
+/*
+let challenge = '30 Days Of JavaScript'
+*/
+console.log(challenge.indexOf('a'))
+
+//Use lastIndexOf to determine the position of the last occurrence of a in 30 Days Of JavaScript.
+/*
+let challenge = '30 Days Of JavaScript'
+*/
+console.log(challenge.lastIndexOf('a'))
+
+
+
+
 
 
 
