@@ -109,11 +109,28 @@ let challenge = '30 Days Of JavaScript'
 */
 console.log(challenge.lastIndexOf('a'))
 
+//Use indexOf to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+/*
+let challenge = '30 Days Of JavaScript'
+*/
+
+let sentence = 'You cannot end a sentence with because because because is a conjunction'
+
+console.log(sentence.indexOf('because'))
 
 
+//Use lastIndexOf to find the position of the last occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+
+console.log(sentence.lastIndexOf('because'))
 
 
+//Use search to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
 
+/*
+let sentence = 'You cannot end a sentence with because because because is a conjunction'
+*/
+
+console.log(sentence.search('because'))
 
  
 
