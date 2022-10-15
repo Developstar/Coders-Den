@@ -55,3 +55,38 @@ let challenge = '30 Days Of JavaScript'
 
 let splitString = challenge.split()
 console.log(splitString)
+
+
+// Split the string 30 Days Of JavaScript at the space using split() method
+/*
+let challenge = '30 Days Of JavaScript'
+*/
+
+let  splitSpace = challenge.split(' ')
+console.log(splitSpace)
+
+
+// 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
+
+let company = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
+let stringAtComma = company.split(',')
+console.log(stringAtComma)
+
+//Change 30 Days Of JavaScript to 30 Days Of Python using replace() method.
+/*
+let challenge = '30 Days Of JavaScript'
+*/
+
+let changed = challenge.replace('JavaScript', 'Python');
+console.log(changed);
+
+
+
+
+
+ 
+
+
+
+
+
