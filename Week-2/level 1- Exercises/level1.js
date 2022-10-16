@@ -132,8 +132,19 @@ let sentence = 'You cannot end a sentence with because because because is a conj
 
 console.log(sentence.search('because'))
 
+// Use trim() to remove any trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
+
+let language = ' JavaScript '
+
+console.log(language.trim(' '))
  
 
+// Use startsWith() method with the string 30 Days Of JavaScript and make the result true
+/*
+let challenge = '30 Days Of JavaScript'
+*/
+
+console.log(challenge.startsWith(3))
 
 
 
