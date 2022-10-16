@@ -163,3 +163,15 @@ let challenge = '30 Days Of JavaScript'
 let pattern = /a/g
 console.log(challenge.match(pattern))
 
+
+// Use concat() and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
+let incompleteSent ='30 Days of'
+console.log(incompleteSent.concat(' JavaScript'))
+
+
+// Use repeat() method to print 30 Days Of JavaScript 2 times
+/*
+let challenge = '30 Days Of JavaScript'
+*/
+
+console.log(challenge.repeat(2));
