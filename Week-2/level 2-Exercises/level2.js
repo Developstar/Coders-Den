@@ -21,3 +21,14 @@ let num = parseInt(number);
 console.log(num);
 
 console.log(num);
+
+
+// Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
+
+let pars = parseFloat('9.8');
+console.log(pars );
+
+
+//to make  parseFloat exactly equal with 10
+let makeTen = Math.round(pars);
+console.log(makeTen);
