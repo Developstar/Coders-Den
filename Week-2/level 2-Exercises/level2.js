@@ -53,5 +53,18 @@ console.log(fullSent.includes('jargon'))
 // Generate a random number between 0 and 100 inclusively.
 
 let randNum = Math.random(); // random number generated
-let zeroToHund = randNum * 100;
+let zeroToHund =  parseInt(randNum * 100) ;
 console.log(zeroToHund);
+
+
+// Generate a random number between 50 and 100 inclusively
+let calc = Math.floor(Math.random() * (100 - 50 + 1)) + 50;
+console.log(calc);
+
+
+// Generate a random number between 0 and 255 inclusively
+let randomNumber = Math.random();
+let zeroToTwoFive = parseInt(randomNumber*255);
+console.log(zeroToTwoFive)
+
+
