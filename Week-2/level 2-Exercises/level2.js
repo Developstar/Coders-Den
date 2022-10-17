@@ -32,3 +32,12 @@ console.log(pars );
 //to make  parseFloat exactly equal with 10
 let makeTen = Math.round(pars);
 console.log(makeTen);
+
+
+// Check if 'on' is found in both python and jargon
+
+let wordOne = 'python'
+let wordTwo = 'jargon'
+
+console.log(wordOne.includes('on'))
+console.log(wordTwo.includes('on'))
