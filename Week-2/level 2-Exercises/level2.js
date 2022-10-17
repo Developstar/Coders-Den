@@ -41,3 +41,17 @@ let wordTwo = 'jargon'
 
 console.log(wordOne.includes('on'))
 console.log(wordTwo.includes('on'))
+
+
+// I hope this course is not full of jargon. Check if jargon is in the sentence.
+
+let fullSent = 'I hope this course is not full of jargon.'
+
+console.log(fullSent.includes('jargon'))
+
+
+// Generate a random number between 0 and 100 inclusively.
+
+let randNum = Math.random(); // random number generated
+let zeroToHund = randNum * 100;
+console.log(zeroToHund);
