@@ -68,3 +68,13 @@ let zeroToTwoFive = parseInt(randomNumber*255);
 console.log(zeroToTwoFive)
 
 
+// Access the 'JavaScript' string characters using a random number.
+
+let characters = 'JavaScript';
+
+let randomNum = Math.random(); //create random numbers
+let intNum = parseInt(randomNum * 9);
+console.log(intNum);
+
+let diffChar = characters[intNum];
+console.log(diffChar);
