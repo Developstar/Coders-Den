@@ -32,7 +32,14 @@ let maritalStatus;
 let country;
 let age;
 
-// Declare variables to store your first name, last name, marital status, country and age in a single line
+// Declare variables to store your first name, lastName, maritalStatus, country and age in a single line
 
-// let firstName, lastName, maritalStatus, country, age ;
+let firstName, lastName, maritalStatus, country, age ;
+
+
+// Declare two variables myAge and yourAge and assign them initial values and log to the browser console.
+let  myAge = 'I am 25 years old.'
+let  yourAge = 'You are 30 years old.'
+
+console.log(myAge, yourAge); 
 
