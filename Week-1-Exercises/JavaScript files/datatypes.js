@@ -1,10 +1,10 @@
-let name = "Adeyeye";
+let myName = "Adeyeye";
 let year = 1929;
 let male = true;
 let firstDayOfTheWeek;
 let certificate = null;
 
-console.log(typeof name)
+console.log(typeof myName)
 console.log(typeof year)
 console.log(typeof male)
 console.log(typeof firstDayOfTheWeek)
@@ -19,7 +19,7 @@ let canCode;
 
 // Declare four variables with assigned values
 
-let location = "Osogbo";
+let abode = "Osogbo";
 const firstDay = "Sunday";
 let position = 30;
 let canVote = true;
@@ -34,5 +34,5 @@ let age;
 
 // Declare variables to store your first name, last name, marital status, country and age in a single line
 
-let firstName, lastName, maritalStatus, country, age ;
+// let firstName, lastName, maritalStatus, country, age ;
 
