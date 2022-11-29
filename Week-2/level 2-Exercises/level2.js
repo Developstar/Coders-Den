@@ -78,3 +78,7 @@ console.log(intNum);
 
 let diffChar = characters[intNum];
 console.log(diffChar);
+
+// Use console.log() and escape characters to print the following pattern.
+
+ 
