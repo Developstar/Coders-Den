@@ -33,6 +33,8 @@ console.log(pars );
 let makeTen = Math.round(pars);
 console.log(makeTen);
 
+console.log(num == makeTen)
+
 
 // Check if 'on' is found in both python and jargon
 
