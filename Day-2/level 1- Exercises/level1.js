@@ -53,7 +53,7 @@ console.log(includesScript)
 let challenge = '30 Days Of JavaScript'
 */
 
-let splitString = challenge.split()
+let splitString = challenge.split( )
 console.log(splitString)
 
 
@@ -160,7 +160,8 @@ console.log(challenge.endsWith("t"))
 let challenge = '30 Days Of JavaScript'
 */
 
-let pattern = /a/g
+// the whole text and case sensitive
+let pattern = /a/gi
 console.log(challenge.match(pattern))
 
 
