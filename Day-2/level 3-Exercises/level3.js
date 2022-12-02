@@ -5,4 +5,5 @@ let sentence = 'Love is the best thing in this world. Some found their love and 
 let pattern = /love/gi
 let num = sentence.match(pattern)
 console.log(num);
-
+let numOfLove = num.length;
+console.log(numOfLove)
