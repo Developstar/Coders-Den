@@ -31,5 +31,33 @@ console.log(numOfBecause)
  console.log(cleanUp)
 
 
+//  Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
 
+let wholeSentence = 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
+
+//get the index and extract  the incomes
+let firstIncomeIndex = wholeSentence.search(5000);
+console.log(firstIncomeIndex);
+let firstIncome = wholeSentence.substring(9,13)
+console.log(firstIncome);
+
+let secondIncomeIndex = wholeSentence.search(1000);
+console.log(secondIncomeIndex);
+let secondIncome = wholeSentence.substring(42, 46);
+console.log(secondIncome)
+
+let thirdIncomeIndex = wholeSentence.search(15000);
+console.log(thirdIncomeIndex);
+let thirdIncome = wholeSentence.substring(67, 72)
+console.log(thirdIncome)
+
+
+//Monthly salary
+ firstIncome = parseInt(firstIncome)   
+ secondIncome = parseInt(secondIncome)
+ thirdIncome = parseInt(thirdIncome)
+
+ let totalIncome = firstIncome + secondIncome + thirdIncome;
+
+ console.log(totalIncome)
 
