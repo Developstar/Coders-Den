@@ -21,3 +21,10 @@ console.log(typeof isMarried);
 
 let year = 2022;
 console.log(typeof year);
+
+
+// Check if type of '10' is equal to 10
+
+console.log(typeof '10' == 10)
+
+
