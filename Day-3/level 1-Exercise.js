@@ -83,7 +83,34 @@ console.log(heCodes === location)
 
 
 
+// Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
 
+let one = 4 > 3;
+console.log(one)
+let two= 4 >= 3
+console.log(two)
+ let three = 4 < 3
+ console.log(three)
+  let fourth = 4 <= 3
+  console.log(fourth)
+
+let fifth = 4 == 4
+console.log(fifth)
+
+let sixth = 4 === 4
+console.log(sixth);
+
+let seventh = 4 != 4
+console.log(seventh)
+
+let eight = 4 !== 4
+console.log(eight) 
+
+let nine = 4 != '4'
+consple.log(nine)
+// 4 == '4'
+// 4 === '4'
+// Find the length of python and jargon and make a falsy comparison statement.
 
 
 
