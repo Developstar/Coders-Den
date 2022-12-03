@@ -27,4 +27,9 @@ console.log(typeof year);
 
 console.log(typeof '10' == 10)
 
+// Check if parseInt('9.8') is equal to 10
+
+let int = parseInt('9.8');
+console.log(int == 10)
+
 
