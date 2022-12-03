@@ -61,3 +61,5 @@ console.log(thirdIncome)
 
  console.log(totalIncome)
 
+
+ 
