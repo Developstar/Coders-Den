@@ -33,3 +33,58 @@ let int = parseInt('9.8');
 console.log(int == 10)
 
 
+// Boolean value is either true or false.
+
+// Write three JavaScript statement which provide truthy value.
+// Write three JavaScript statement which provide falsy value.
+
+
+
+// THREE TRUTHY STATEMENTS
+
+//one
+let a = 5;
+let b = 6;
+
+console.log(a < b);
+
+//Two
+let price = 200;
+let remark = '200';
+
+console.log(price == remark);
+
+//Three
+let index = 0;
+let available = false;
+console.log(index == available)
+
+
+// THREE FALSY STATEMENTS
+
+//one
+let rate
+let wife = null
+console.log(rate === wife)
+
+//Two
+let myAge = 24;
+let yourAge = 24;
+
+console.log(myAge !== yourAge);
+
+
+//Three 
+
+let heCodes = false
+let location = ''
+
+console.log(heCodes === location)
+
+
+
+
+
+
+
+
