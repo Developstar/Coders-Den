@@ -107,10 +107,29 @@ let eight = 4 !== 4
 console.log(eight) 
 
 let nine = 4 != '4'
-consple.log(nine)
-// 4 == '4'
-// 4 === '4'
+console.log(nine)
+
+let ten = 4 == '4'
+console.log(ten)
+
+let eleven = 4 === '4'
+console.log(eleven)
+
+
 // Find the length of python and jargon and make a falsy comparison statement.
+
+let langOne = 'python';
+let langTwo = 'jargon';
+
+let langOneLength = langOne.length
+console.log(langOneLength)
+
+let langTwoLength = langTwo.length
+console.log(langTwoLength)
+
+
+let lengthComparison = langOneLength > langTwoLength
+console.log(lengthComparison)
 
 
 
