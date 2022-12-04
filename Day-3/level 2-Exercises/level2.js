@@ -69,17 +69,28 @@
 // Your first name, Asabeneh is longer than your family name, Yetayeh
 
 
-let firstName = 'Boluwatife';
-let secondName = 'Adeyeye'
-//get length
-let firstNameLength = firstName.length;
-console.log(firstNameLength)
-let secondNameLength = secondName.length;
-console.log(secondNameLength)
+// let firstName = 'Boluwatife';
+// let secondName = 'Adeyeye'
+// //get length
+// let firstNameLength = firstName.length;
+// console.log(firstNameLength)
+// let secondNameLength = secondName.length;
+// console.log(secondNameLength)
 
-if(firstNameLength > secondNameLength){
-    console.log(`Your first name, ${firstName} is longer than your family name, ${secondName}`)
-    alert(`Your first name, ${firstName} is longer than your family name, ${secondName}`)
-}else{
+// if(firstNameLength > secondNameLength){
+//     console.log(`Your first name, ${firstName} is longer than your family name, ${secondName}`)
+//     alert(`Your first name, ${firstName} is longer than your family name, ${secondName}`)
+// }else{
 
-}
+// }
+
+
+// Declare two variables myAge and yourAge and assign them initial values and myAge and yourAge. Have an output like this 'I am 225 years older than you'.
+let myAge = 24
+let yourAge = 15
+
+let ageDifference = myAge - yourAge;
+
+console.log(`I am ${ageDifference} years older than you`)
+
+
