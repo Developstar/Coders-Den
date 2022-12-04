@@ -9,14 +9,25 @@
 
 // Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
 
-let sideA = prompt('enter side a');
-let answerA = parseInt(sideA)
+// let sideA = prompt('enter side a');
+// let answerA = parseInt(sideA)
 
-let sideB = prompt('enter side b');
-let answerB = parseInt(sideB);
+// let sideB = prompt('enter side b');
+// let answerB = parseInt(sideB);
 
-let sideC = prompt('enter side c');
-let answerC = parseInt(sideC)
+// let sideC = prompt('enter side c');
+// let answerC = parseInt(sideC)
 
-let perimeter = parseInt(answerA + answerB + answerC)
-alert(`The Perimeter of your Triangle = ${perimeter}`)
+// let perimeter = parseInt(answerA + answerB + answerC)
+// alert(`The Perimeter of your Triangle = ${perimeter}`)
+
+
+// Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
+
+let length = prompt('Enter length');
+let width = prompt('Enter width');
+// Area of rectangle
+let area = length * width
+let perimeter = 2 * (parseInt(length) + parseInt(width));
+alert(area);
+alert(perimeter);
