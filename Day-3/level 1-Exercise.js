@@ -133,4 +133,49 @@ console.log(lengthComparison)
 
 
 
+// Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
+
+//  4 > 3 && 10 < 12
+console.log(true && true)
+
+// 4 > 3 && 10 > 12
+console.log(true && false)
+
+// 4 > 3 || 10 < 12
+console.log(true || true)
+
+// 4 > 3 || 10 > 12
+console.log(true || false)
+
+// !(4 > 3)
+console.log(!(true))
+
+// !(4 < 3)
+console.log(!(false))
+
+// !(false)
+console.log(!(false))
+
+// !(4 > 3 && 10 < 12)
+console.log(!(true && true))
+
+// !(4 > 3 && 10 > 12)
+console.log(!(true && false))
+
+// !(4 === '4')
+console.log(!(false))
+
+// There is no 'on' in both dragon and python
+
+let wordOne = 'dragon'
+let wordTwo = 'python'
+
+let onInWordOne = wordOne.includes('on')
+console.log(onInWordOne)
+
+let onInWordTwo = wordTwo.includes('on')
+console.log(onInWordTwo)
+
+// no 'on' in both dragon and python
+console.log(!(onInWordOne && onInWordTwo))
 
