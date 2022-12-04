@@ -179,3 +179,37 @@ console.log(onInWordTwo)
 // no 'on' in both dragon and python
 console.log(!(onInWordOne && onInWordTwo))
 
+
+// Use the Date object to do the following activities
+
+let now = new Date()
+console.log(now)
+
+// What is the year today?
+let currentYear = now.getFullYear();
+console.log(currentYear)
+
+// What is the month today as a number?
+let currentMonth = now.getMonth();
+console.log(currentMonth)
+
+// What is the date today?
+let currentDate = now.getDate();
+console.log(currentDate)
+
+// What is the day today as a number?
+let currentDay = now.getDay()
+console.log(currentDay)
+
+// What is the hours now?
+let currentHour = now.getHours()
+console.log(currentHour)
+
+// What is the minutes now?
+let currentMinutes = now.getMinutes()
+console.log(currentMinutes)
+
+// Find out the numbers of seconds elapsed from January 1, 1970 to now.
+let time = now.getTime()
+console.log(time)
+
