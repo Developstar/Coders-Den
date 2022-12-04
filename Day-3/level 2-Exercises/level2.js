@@ -45,9 +45,21 @@
 
 // Write a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
 
-let workHour = prompt('How many hours would you like to work in a week?(enter figure only to avoid error)')
-let ratePerHour = prompt('Rate per hour in $')
+// let workHour = prompt('How many hours would you like to work in a week?(enter figure only to avoid error)')
+// let ratePerHour = prompt('Rate per hour in $')
 
-let Pay = parseInt(workHour) * parseInt(ratePerHour);
+// let Pay = parseInt(workHour) * parseInt(ratePerHour);
 
-alert(`Your weekly Pay = $ ${Pay}`)
+// alert(`Your weekly Pay = $ ${Pay}`)
+
+
+// If the length of your name is greater than 7 say, your name is long else say your name is short.
+
+let enterName = prompt('Enter your name here');
+let checkLength = enterName.length
+
+if (checkLength > 7) {
+    alert('Your name is long')
+} else {
+    alert('Your name is short')
+}
