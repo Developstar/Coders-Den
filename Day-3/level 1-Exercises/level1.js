@@ -212,4 +212,3 @@ console.log(currentMinutes)
 // Find out the numbers of seconds elapsed from January 1, 1970 to now.
 let time = now.getTime()
 console.log(time)
-
