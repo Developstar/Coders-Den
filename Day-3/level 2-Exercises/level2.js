@@ -34,11 +34,20 @@
 
 // Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
 
-let r = prompt('Entire radius here')
-const pi = 3.14;
+// let r = prompt('Entire radius here')
+// const pi = 3.14;
 
-let areaOfCircle = pi * r * r;
-alert(`The area of circle = ${areaOfCircle}`)
+// let areaOfCircle = pi * r * r;
+// alert(`The area of circle = ${areaOfCircle}`)
 
-let circumference = 2 * pi * r;
-alert(`The circumference of your circle = ${circumference}`)
+// let circumference = 2 * pi * r;
+// alert(`The circumference of your circle = ${circumference}`)
+
+// Write a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
+
+let workHour = prompt('How many hours would you like to work in a week?(enter figure only to avoid error)')
+let ratePerHour = prompt('Rate per hour in $')
+
+let Pay = parseInt(workHour) * parseInt(ratePerHour);
+
+alert(`Your weekly Pay = $ ${Pay}`)
