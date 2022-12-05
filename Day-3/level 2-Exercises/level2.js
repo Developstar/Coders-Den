@@ -141,7 +141,8 @@ console.log(now)
 
 let year = now.getFullYear()
 let month = now.getMonth()
-let day = now.getDay()
+let day = now.getDate()
+console.log(day)
 let hour = now.getHours();
 let minutes = now.getMinutes();
 
