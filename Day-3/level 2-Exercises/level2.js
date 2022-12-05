@@ -95,18 +95,37 @@
 
 // Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
 
-let canDrive = 18
-let now = new Date();
-let currentYear = now.getFullYear()
-console.log(currentYear)
-let userInput = prompt('What year were you born(yyyy) ?')
-let userAge = currentYear - userInput;
+// let canDrive = 18
+// let now = new Date();
+// let currentYear = now.getFullYear()
+// console.log(currentYear)
+// let userInput = prompt('What year were you born(yyyy) ?')
+// let userAge = currentYear - userInput;
 
 
 
-if(userAge >= canDrive){
-    alert('Congratulations, You can drive')
-}else{
-    alert(`Sorry you are ${userAge} years old. Yuswou'll have to Wait for ${canDrive - userAge} years before you can drive`)
-}
+// if(userAge >= canDrive){
+//     alert('Congratulations, You can drive')
+// }else{
+//     alert(`Sorry you are ${userAge} years old. Yuswou'll have to Wait for ${canDrive - userAge} years before you can drive`)
+// }
+
+
+// Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. 
+
+
+const daysInAYear = 365
+const hoursInADay = 24
+const minInOneHour = 60
+const secInAMinute = 60
+
+let secondsInADay = (secInAMinute * minInOneHour) * hoursInADay
+console.log(secondsInADay)
+let secondsInAYear = secondsInADay * daysInAYear
+console.log(secondsInAYear)
+
+let yearsToLive = prompt('Enter number of years you wish to live');
+let numberOfSec = yearsToLive * secondsInAYear
+
+alert(`You will live for ${numberOfSec} seconds`)
 
