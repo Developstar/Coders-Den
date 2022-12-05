@@ -86,11 +86,27 @@
 
 
 // Declare two variables myAge and yourAge and assign them initial values and myAge and yourAge. Have an output like this 'I am 225 years older than you'.
-let myAge = 24
-let yourAge = 15
+// let myAge = 24
+// let yourAge = 15
 
-let ageDifference = myAge - yourAge;
+// let ageDifference = myAge - yourAge;
 
-console.log(`I am ${ageDifference} years older than you`)
+// console.log(`I am ${ageDifference} years older than you`)
 
+// Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
+
+let canDrive = 18
+let now = new Date();
+let currentYear = now.getFullYear()
+console.log(currentYear)
+let userInput = prompt('What year were you born(yyyy) ?')
+let userAge = currentYear - userInput;
+
+
+
+if(userAge >= canDrive){
+    alert('Congratulations, You can drive')
+}else{
+    alert(`Sorry you'll have to Wait for ${canDrive - userAge} years before you can drive`)
+}
 
