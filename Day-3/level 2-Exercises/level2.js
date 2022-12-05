@@ -114,18 +114,43 @@
 // Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. 
 
 
-const daysInAYear = 365
-const hoursInADay = 24
-const minInOneHour = 60
-const secInAMinute = 60
+// const daysInAYear = 365
+// const hoursInADay = 24
+// const minInOneHour = 60
+// const secInAMinute = 60
 
-let secondsInADay = (secInAMinute * minInOneHour) * hoursInADay
-console.log(secondsInADay)
-let secondsInAYear = secondsInADay * daysInAYear
-console.log(secondsInAYear)
+// let secondsInADay = (secInAMinute * minInOneHour) * hoursInADay
+// console.log(secondsInADay)
+// let secondsInAYear = secondsInADay * daysInAYear
+// console.log(secondsInAYear)
 
-let yearsToLive = prompt('Enter number of years you wish to live');
-let numberOfSec = yearsToLive * secondsInAYear
+// let yearsToLive = prompt('Enter number of years you wish to live');
+// let numberOfSec = yearsToLive * secondsInAYear
 
-alert(`You will live for ${numberOfSec} seconds`)
+// alert(`You will live for ${numberOfSec} seconds`)
 
+
+// Create a human readable time format using the Date time object
+
+// YYYY-MM-DD HH:mm
+// DD-MM-YYYY HH:mm
+// DD/MM/YYYY HH:mm
+
+let now = new Date();
+console.log(now)
+
+let year = now.getFullYear()
+let month = now.getMonth()
+let day = now.getDay()
+let hour = now.getHours();
+let minutes = now.getMinutes();
+
+
+// YYYY-MM-DD HH:mm
+console.log(`${year}-${month}-0${day} ${hour}:${minutes}`)
+
+// DD-MM-YYYY HH:mm
+console.log(`0${day}-${month}-${year} ${hour}:${minutes}`)
+
+// DD/MM/YYYY HH:mm
+console.log(`0${day}/${month}/${year} ${hour}:${minutes}`)
