@@ -30,16 +30,28 @@
 // using if else
 // ternary operator.
 
-let a = 4
-let b = 3
+// let a = 4
+// let b = 3
 
 
-// if(a > b){
-//     console.log('a is greater than b')
-// }else{
-//     console.log('a is less than b')
-// }
+// // if(a > b){
+// //     console.log('a is greater than b')
+// // }else{
+// //     console.log('a is less than b')
+// // }
 
-a > b
-? console.log('a is greater than b')
-: console.log('a is less than b')
+// a > b
+// ? console.log('a is greater than b')
+// : console.log('a is less than b')
+
+
+// Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?
+
+let userInput = prompt('Enter a number')
+let evenNum = userInput % 2 === 0
+
+if(evenNum){
+    console.log(`${userInput} is an even number`)
+}else{
+    console.log(`${userInput} is an odd number`)
+}
