@@ -43,24 +43,50 @@
 // June, July or August, the season is Summer
 
 
-let userInput = prompt('What month are we?')
-let month = userInput.toLowerCase()
+// let userInput = prompt('What month are we?')
+// let month = userInput.toLowerCase()
 
 
-switch(month){
-    case "september"  :
-    case  "october"   :
-    case  "november"  :
-        console.log('the season is Autumn')
-        break;
-    case  "december" :
-    case  "january"  :
-    case  "february" :  
-        console.log('the season is Winter')
-        break;
-    default :
-    console.log('Invalid input')
-    break;
-}
+// switch(month){
+//     case "september"  :
+//     case  "october"   :
+//     case  "november"  :
+//         console.log('the season is Autumn')
+//         break;
+//     case  "december" :
+//     case  "january"  :
+//     case  "february" :  
+//         console.log('the season is Winter')
+//         break;
+//     default :
+//     console.log('Invalid input')
+//     break;
+// }
 
 
+// Check if a day is weekend day or a working day. Your script will take day as an input.
+
+let userInput = prompt('What is the day  today?')
+// this converts whatever the user writes to a lowerCase. This is to ensure that we do not have generic answers
+let day = userInput.toLowerCase()
+
+    // this makes the first letter of the user's input always capital letter and the other letters in lowerCase
+    // day = day[0].toUpperCase() + day.substring(1)
+
+    if(day === 'monday'){
+        alert('Monday is a working day')
+    }else if (day === 'tuesday') {
+        alert('Tuesday is a working day')
+    }else if(day === 'wednesday'){
+        alert('Wednesday is a working day')
+    }else if(day === 'thursday'){
+        alert('Thursday is a working day')
+    }else if(day === 'friday'){
+        alert('Friday is a working day')
+    }else if(day === 'saturday'){
+        alert('Saturday is a weekend day')
+    }else if(day === 'sunday'){
+        alert('Sunday is a weekend day')
+    }else{
+        alert(`${userInput} is Not a valid day in a week`)
+    }
