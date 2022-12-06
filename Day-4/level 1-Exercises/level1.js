@@ -19,7 +19,7 @@ let myAge = 24
 let yourAge = prompt('Enter your Age')
 
 if(yourAge > myAge){
-    console.log('you are older than me')
+    console.log(`you are ${yourAge - myAge} years older than me`)
 }else{
     console.log('I am older than you are')
 }
