@@ -14,12 +14,28 @@
 
 // Compare the values of myAge and yourAge using if … else. Based on the comparison and log the result to console stating who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
 
-let myAge = 24
+// let myAge = 24
 
-let yourAge = prompt('Enter your Age')
+// let yourAge = prompt('Enter your Age')
 
-if(yourAge > myAge){
-    console.log(`you are ${yourAge - myAge} years older than me`)
+// if(yourAge > myAge){
+//     console.log(`you are ${yourAge - myAge} years older than me`)
+// }else{
+//     console.log('I am older than you are')
+// }
+
+
+// If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement it in to ways
+
+// using if else
+// ternary operator.
+
+let a = 4
+let b = 3
+
+
+if(a > b){
+    console.log('a is greater than b')
 }else{
-    console.log('I am older than you are')
+    console.log('a is less than b')
 }
