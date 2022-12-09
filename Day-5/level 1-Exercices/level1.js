@@ -69,3 +69,39 @@ let middleCompany = companies[middleIndex]
 console.log(middleCompany)
 
 
+// Print out each company
+console.log(companies[0])
+console.log(companies[1])
+console.log(companies[2])
+console.log(companies[3])
+console.log(companies[4])
+console.log(companies[5])
+console.log(companies[6])
+
+// Change each company name to uppercase one by one and print them out
+
+let companyOne = companies[0]
+companies[0] = companyOne.toUpperCase()
+console.log(companies);
+
+let companyTwo = companies[1];
+companies[1] = companyTwo.toUpperCase();
+console.log(companies)
+
+let companyThree = companies[2];
+companies[2] = companyThree.toUpperCase();
+console.log(companies)
+
+let companyFour = companies[3]
+companies[3] = companyFour.toUpperCase();
+console.log(companies);
+
+let companyFive = companies[5];
+companies[5] = companyFive.toUpperCase();
+console.log(companies)
+
+let companySeven = companies[6];
+companies[6] = companySeven.toUpperCase();
+console.log(companies)
+
+
