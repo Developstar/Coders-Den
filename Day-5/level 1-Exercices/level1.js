@@ -42,3 +42,30 @@ console.log(lastElement)
 
 
 
+// Declare an array called mixedDataTypes, put different data types in the array and find the length of the array. The array size should be greater than 5
+
+let mixedDataTypes = [1,'Ade', true, ['cow', 'got'], {firstName: 'Boluwatife', secondName: 'Boluwatife'}, undefined ]
+console.log(mixedDataTypes.length)
+
+// Declare an array variable name it Companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
+
+let companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
+
+// Print the array using console.log()
+console.log(companies);
+
+// Print the first company, middle and last company
+
+let firstCompany = companies[0]
+console.log(firstCompany)
+
+//Middle
+// check if array length is even or odd
+let arrayLength = companies.length
+console.log(arrayLength)
+//Get the middle number
+let middleIndex = Math.floor(arrayLength / 2)
+let middleCompany = companies[middleIndex]
+console.log(middleCompany)
+
+
