@@ -110,3 +110,11 @@ console.log(companies)
 console.log(companies.join())
 
 
+// Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
+
+let indexOfApple = companies.indexOf('APPLE')
+if(indexOfApple === -1){
+    console.log('This company is nt found')
+}else{
+    console.log(`${companies[indexOfApple]} exist`)
+}
