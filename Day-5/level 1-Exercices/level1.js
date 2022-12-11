@@ -118,3 +118,24 @@ if(indexOfApple === -1){
 }else{
     console.log(`${companies[indexOfApple]} exist`)
 }
+
+// Sort the array using sort() method
+console.log(companies)
+
+let sort = companies.sort();
+console.log(sort)
+
+// Reverse the array using reverse() method
+console.log(companies)
+let reverse = companies.reverse()
+console.log(reverse)
+
+// Slice out the first 3 companies from the array
+console.log(companies)
+let slice = companies.slice(0, 3)
+console.log(slice)
+
+// Slice out the last 3 companies from the array
+console.log(companies)
+let lastThree = companies.slice(4)
+console.log(lastThree)
