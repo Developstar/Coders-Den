@@ -139,3 +139,25 @@ console.log(slice)
 console.log(companies)
 let lastThree = companies.slice(4)
 console.log(lastThree)
+
+// Slice out the middle IT company or companies from the array
+console.log(companies)
+// Check if an array length is an odd number of even number 
+if(companies.length % 2 === 0){
+    console.log('even number')
+}else{
+    console.log('odd number')
+};
+//how to get the middle element in an Array if array.length is odd number
+let middElementIndex = Math.floor(companies.length / 2)
+console.log(middElementIndex)
+//slice the middle number
+let companySlice = companies.slice(middElementIndex, 4)
+console.log(companySlice)
+
+// Remove the first IT company from the array
+console.log(companies)
+let RemoveFirstCompany = companies.shift(companies[0])
+console.log(companies);
+
+
