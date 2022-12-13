@@ -13,4 +13,24 @@ let maxAge = ages[maxAgeIndex]
 console.log(maxAge)
 
 
+// Find the median age(one middle item or two middle items divided by two)
+//To get if array length is odd or even number
+if (ages.length % 2 === 0) {
+    console.log('ages array length is even number')
+} else {
+    console.log('ages array length is odd')
+}
 
+//get the middle items of the array is array length is even
+let firstMiddleElementIndex = ages.length/2
+console.log(firstMiddleElementIndex)
+let firstMiddleElement = ages[firstMiddleElementIndex]
+console.log(firstMiddleElement)
+let secondMiddleElementIndex = firstMiddleElementIndex-1
+console.log(secondMiddleElementIndex)
+let secondMiddleElement = ages[secondMiddleElementIndex];
+console.log(secondMiddleElement)
+
+//Median
+let median = (firstMiddleElement + secondMiddleElement) / 2
+console.log(median)
