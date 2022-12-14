@@ -34,3 +34,10 @@ console.log(secondMiddleElement)
 //Median
 let median = (firstMiddleElement + secondMiddleElement) / 2
 console.log(median)
+
+// Find the average age(all items divided by number of items)
+console.log(ages)
+let sumOfItems = ages[0] + ages[1] + ages[3] + ages[4] + ages[5] + ages[6] + ages[7] + ages[8] + ages[9]
+let numberOfItems = ages.length 
+let averageAge = sumOfItems / numberOfItems;
+console.log(averageAge)
