@@ -271,7 +271,41 @@ let firstTenCountries = countries.slice(0, 10)
 console.log(firstTenCountries)
 
 
+// Find the middle country(ies) in the countries array
+// get the length of the array
+let countriesLength = countries.length
+console.log(countriesLength)
+ 
+// check if countriesLength is even or odd number
+let calcu = 193 % 2
+console.log(calcu)
+// the middle country
+let middleCountryIndex = Math.floor(countriesLength / 2)
+console.log(middleCountryIndex)
+let middleCountry = countries[96]
+console.log(`The middle country is ${middleCountry}`)
 
 
+// Divide the countries array into two equal arrays if it is even. If countries array is not even , one more country for the first half.
+//check if countries is even or not
+if(countries % 2 === 0){
+    console.log('Countries = even')
+}else{
+    console.log('Countries = odd')
+}
+
+//divide countries into two
+let countriesIntoTwo = Math.floor(countries.length / 2);
+console.log(countriesIntoTwo)
+
+// the length of each arrays of countries
+let countryArrayOneLength = 96 + 1
+let countryArrayTwoLength = 96
+
+//get the countries in each arrays
+let countriesInFirstArray = countries.slice(0, 97)
+console.log(countriesInFirstArray)
+let countriesInSecondArray = countries.slice(98,)
+console.log(countriesInSecondArray)
 
 
