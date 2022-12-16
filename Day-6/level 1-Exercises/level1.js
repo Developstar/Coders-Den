@@ -7,9 +7,9 @@
 //while
 // let i = 0
 // while( i <= 10){
-//    console.log(i) 
+//    console.log(i)
 //    i++
-    
+
 // }
 
 //do while
@@ -32,12 +32,10 @@
 //   let line = '';
 //   for(let n = 0; n < i; n++){
 //     line += '#'
-    
+
 //   }
 //     console.log(line)
 //  }
-
-
 
 // Use loop to print the following pattern:
 // 0 x 0 = 0
@@ -56,8 +54,6 @@
 //     console.log(`${i} x ${i} = ${i * i}`)
 // }
 
-
-
 // Using loop print the following pattern
 
 //  i    i^2   i^3
@@ -73,7 +69,15 @@
 //  9    81    729
 //  10   100   1000
 
-console.log(`i  i^2  i^3`)
-for(let i = 0; i <= 10; i++){
-    console.log(`${i}   ${i**2}   ${i**3}`)
+// console.log(`i  i^2  i^3`)
+// for(let i = 0; i <= 10; i++){
+//     console.log(`${i}   ${i**2}   ${i**3}`)
+// }
+
+// Use for loop to iterate from 0 to 100 and print only even numbers
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
 }
