@@ -93,16 +93,22 @@
 
 // Use for loop to iterate from 0 to 100 and print only prime numbers
 
-for (let i = 2; i <= 100; i++) {
-    let prime = true;
-    for (let j = 2; j < i; j++) {
-      if (i % j === 0) {
-        prime = false;
-        break;
-      }
-    }
-    if (prime) {
-      console.log(i);
-    }
-  }
+// for (let i = 2; i <= 100; i++) {
+//     let prime = true;
+//     for (let j = 2; j < i; j++) {
+//       if (i % j === 0) {
+//         prime = false;
+//         break;
+//       }
+//     }
+//     if (prime) {
+//       console.log(i);
+//     }
+//   }
   
+// Use for loop to iterate from 0 to 100 and print the sum of all numbers.
+let sum = 0
+for(let i = 0; i <= 100; i++){
+  sum += i
+  console.log(sum)
+}
