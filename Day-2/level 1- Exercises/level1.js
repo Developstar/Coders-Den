@@ -174,6 +174,6 @@ console.log(incompleteSent.concat(' JavaScript'))
 /*
 let challenge = '30 Days Of JavaScript'
 */
-
-console.log(challenge.repeat(2));
+let repeat = challenge.repeat(2);
+console.log(repeat)
 
