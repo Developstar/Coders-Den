@@ -31,6 +31,10 @@ let challenge = '30 Days Of JavaScript'
 let firstWord = challenge.substring(3,7);
 console.log(firstWord)
 
+//Using substr()
+let firstWord2 = challenge.substr(3,4)
+console.log(`firstWord2 = ${firstWord2}`)
+
 // Slice out the phrase Days Of JavaScript from 30 Days Of JavaScript.
 /*
 let challenge = '30 Days Of JavaScript'
