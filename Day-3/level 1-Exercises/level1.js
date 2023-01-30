@@ -190,7 +190,7 @@ let currentYear = now.getFullYear();
 console.log(currentYear)
 
 // What is the month today as a number?
-let currentMonth = now.getMonth();
+let currentMonth = now.getMonth() + 1;
 console.log(currentMonth)
 
 // What is the date today?
