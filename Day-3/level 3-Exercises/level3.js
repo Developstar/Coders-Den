@@ -6,12 +6,19 @@ console.log(now)
 
 
 let year = now.getFullYear()
-let month = now.getMonth()
+let month = now.getMonth() + 1
 let day = now.getDate()
 console.log(day)
 let hour = now.getHours();
 let minutes = now.getMinutes();
 
+if(month < 10){
+    let modifiedMonth = '0' + `${month}`
+    console.log(`${year}-${modifiedMonth}-${day} ${hour}:${minutes}`)
+}else{
+    modifiedMonth = month
+    console.log(`${year}-${modifiedMonth}-${day} ${hour}:${minutes}`)
+    
+}
 
 // YYYY-MM-DD HH:mm
-console.log(`${year}-${month}-0${day} ${hour}:${minutes}`)
