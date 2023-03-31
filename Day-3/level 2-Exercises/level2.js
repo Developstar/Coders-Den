@@ -136,22 +136,27 @@
 // DD-MM-YYYY HH:mm
 // DD/MM/YYYY HH:mm
 
-let now = new Date();
-console.log(now)
+// let now = new Date();
+// console.log(now)
 
-let year = now.getFullYear()
-let month = now.getMonth()
-let day = now.getDate()
-console.log(day)
-let hour = now.getHours();
-let minutes = now.getMinutes();
+// let year = now.getFullYear()
+// let month = now.getMonth()
+// let day = now.getDate()
+// console.log(day)
+// let hour = now.getHours();
+// let minutes = now.getMinutes();
 
 
-// YYYY-MM-DD HH:mm
-console.log(`${year}-${month}-0${day} ${hour}:${minutes}`)
+// // YYYY-MM-DD HH:mm
+// console.log(`${year}-${month}-0${day} ${hour}:${minutes}`)
 
-// DD-MM-YYYY HH:mm
-console.log(`0${day}-${month}-${year} ${hour}:${minutes}`)
+// // DD-MM-YYYY HH:mm
+// console.log(`0${day}-${month}-${year} ${hour}:${minutes}`)
 
-// DD/MM/YYYY HH:mm
-console.log(`0${day}/${month}/${year} ${hour}:${minutes}`)
+// // DD/MM/YYYY HH:mm
+// console.log(`0${day}/${month}/${year} ${hour}:${minutes}`)
+
+
+
+
+

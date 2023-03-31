@@ -162,23 +162,70 @@
 
 
 // Remove the middle IT company or companies from the array
-let companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
+// let companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
 //middle element in an Array if array.length is odd number
-let middElementIndex = Math.floor(companies.length / 2)
-console.log(middElementIndex);
+// let middElementIndex = Math.floor(companies.length / 2)
+// console.log(middElementIndex);
 //Remove the middle IT company or companies from the array
-let removeMiddleItCompany = companies.splice(3, 1)
-console.log(companies)
+// let removeMiddleItCompany = companies.splice(3, 1)
+// console.log(companies)
 
 
 // Remove the last IT company from the array
-let Companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
+// let Companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
 //get the last element in the array
-let lastElementIndex = Companies.length - 1;
-console.log(lastElementIndex)
-let removeLastCompany = Companies.splice(6, 1);
-console.log(Companies)
+// let lastElementIndex = Companies.length - 1;
+// console.log(lastElementIndex)
+// let removeLastCompany = Companies.splice(6, 1);
+// console.log(Companies)
 
 // Remove all IT companies
-let removeAllelement = Companies.splice(0,6)
-console.log(Companies)
+// let removeAllelement = Companies.splice(0,6)
+// console.log(Companies)
+
+
+
+// const numbers = [1, 2, 3, 4, 5, 3, 1, 2]
+
+// console.log(numbers.toString())
+
+
+
+
+//Declare an empty array;
+let array = []
+let array2 = new Array()
+let array3 = Array()
+
+
+//Declare an array with more than 5 number of elements
+
+let fiveNumArray = ['Ade', 'Tola', 'Bolu', 'Segun', 'Tade']
+
+//Find the length of your array
+console.log(fiveNumArray.length)
+
+//Get the first item, the middle item and the last item of the array
+//firstItem
+
+let firstItem = fiveNumArray[0];
+console.log(firstItem)
+
+//midddle item
+if(fiveNumArray.length % 2 != 0 ){
+    let middleNumIndex = Math.floor(fiveNumArray.length / 2)
+    let middleItem = fiveNumArray[middleNumIndex]
+    console.log(middleItem)
+}else if(fiveNumArray.length % 2 === 0){
+    let middleNumIndex = Math.floor(fiveNumArray.length / 2)
+    let middleItem1 = fiveNumArray[middleNumIndex]
+    let middleItem2 = fiveNumArray[middleNumIndex - 1] 
+    console.log(middleItem1, middleItem2)
+}else{
+    console.log(`not a valid input`)
+}
+
+//last item
+let lastItemIndex = fiveNumArray.length-1
+let lastItem = fiveNumArray[lastItemIndex]
+console.log(lastItem) 
