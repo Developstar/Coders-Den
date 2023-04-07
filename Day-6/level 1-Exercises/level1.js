@@ -165,6 +165,28 @@ let sumOfEvenAndSumOfOdd = [sumOfEven, sumOfOdd]
 console.log(sumOfEvenAndSumOfOdd)
 
 
+//Develop a small script which generate array of 5 random numbers
+
+let randomNum = []
+
+for(let i = 1; i<=5; i++){
+  randomNum += parseInt(Math.random()*10) 
+}
+console.log(randomNum)
+
+let toArray = randomNum.split('')
+
+for(let n=0; n<=4; n++){
+  toArray[n] = parseInt(toArray[n])
+}
+
+console.log(toArray)
+
+
+
+
+
+
 
 
 
