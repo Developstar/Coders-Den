@@ -198,6 +198,24 @@ for(let i = 0; i<=4; i++){
 console.log(uniqueArray)
 
 
+//Develop a small script which generate a six characters random id:
+
+let PossibleId = ['a', 'b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q',1,2,3,4,5,6,7,8,9]
+
+let id = []
+
+for(let i = 1; i<=6; i++){
+let random
+
+do{
+  random = Math.floor(Math.random()*25)
+}while(id.indexOf(PossibleId[random]) !== -1)
+id.push(PossibleId[random])
+}
+ 
+console.log(id)
+let toString = id.join('')
+console.log(toString)
 
 
 
