@@ -137,3 +137,28 @@ for(let i = 0; i <= 100; i++){
 }
 
 
+
+//use for loop to iterate from  0-100 and print the sum of all even numbers and the sum of all odds
+let sumOfEven = 0
+let sumOfOdd = 0
+for(let i = 0; i<=100; i++){
+  //sumOfEven numbers
+  if(i % 2 != 0){
+    continue
+  }
+  console.log(sumOfEven += i)
+  
+}
+
+for(let i = 0; i<=100; i++){
+  //sumOfOdd number
+  if(i % 2 == 0){
+    continue
+  }
+  console.log(sumOfOdd += i)
+  
+}
+
+
+
+
