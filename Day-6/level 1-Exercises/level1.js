@@ -1,23 +1,32 @@
 // Iterate 0 to 10 using for loop, do the same using while and do while loop
-// for
-// for(let i = 0; i <= 10; i++){
-//     console.log(i)
-// }
+
+//for
+for(let i = 0; i <= 10; i++){
+    console.log(i)
+}
 
 //while
-// let i = 0
-// while( i <= 10){
-//    console.log(i)
-//    i++
+let i = 0
+while( i <= 10){
+   console.log(i)
+   i++
 
-// }
+}
 
 //do while
-// let i = 0
-// do{
-//     console.log(i)
-//     i++
-// }while(i <= 10)
+let i = 0
+do{
+    console.log(i)
+    i++
+}while(i <= 10)
+
+// Iterate 0 to n using for loop
+
+let n = 15
+
+for(i = 0; i<= n; i++){
+  console.log(i)
+}
 
 // Write a loop that makes the following pattern using console.log():
 // #
@@ -28,14 +37,18 @@
 // ######
 // #######
 
-// for(let i = 1; i <= 7; i++){
-//   let line = '';
-//   for(let n = 0; n < i; n++){
-//     line += '#'
 
-//   }
-//     console.log(line)
-//  }
+for(let i = 1; i <= 7; i++){
+  let line = '';
+  for(let n = 0; n < i; n++){
+    line += '#'
+
+  }
+    console.log(line)
+ }
+
+
+
 
 // Use loop to print the following pattern:
 // 0 x 0 = 0
@@ -50,9 +63,19 @@
 // 9 x 9 = 81
 // 10 x 10 = 100
 
-// for(let i = 0; i <= 10; i++ ){
-//     console.log(`${i} x ${i} = ${i * i}`)
-// }
+for(let i = 0; i <= 10; i++ ){
+    console.log(`${i} x ${i} = ${i * i}`)
+}
+
+//another method
+for(let i = 1; i <= 11; i++){
+  let line = ''
+  for(let n = 0; n < i; n++ ){
+    line = `${n} x ${n} = ${n*n}`
+  }
+  console.log(line)
+}
+
 
 // Using loop print the following pattern
 
@@ -69,42 +92,42 @@
 //  9    81    729
 //  10   100   1000
 
-// console.log(`i  i^2  i^3`)
-// for(let i = 0; i <= 10; i++){
-//     console.log(`${i}   ${i**2}   ${i**3}`)
-// }
+console.log(`i  i^2  i^3`)
+for(let i = 0; i <= 10; i++){
+    console.log(`${i}   ${i**2}   ${i**3}`)
+}
 
 // Use for loop to iterate from 0 to 100 and print only even numbers
 
-// for (let i = 1; i <= 100; i++) {
-//   if (i % 2 === 0) {
-//     console.log(i);
-//   }
-// }
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
 
 // Use for loop to iterate from 0 to 100 and print only odd numbers
 
-// for (let i = 1; i <= 100; i++) {
-//   if (i % 2 !== 0) {
-//     console.log(i);
-//   }
-// }
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 !== 0) {
+    console.log(i);
+  }
+}
 
 
 // Use for loop to iterate from 0 to 100 and print only prime numbers
 
-// for (let i = 2; i <= 100; i++) {
-//     let prime = true;
-//     for (let j = 2; j < i; j++) {
-//       if (i % j === 0) {
-//         prime = false;
-//         break;
-//       }
-//     }
-//     if (prime) {
-//       console.log(i);
-//     }
-//   }
+for (let i = 2; i <= 100; i++) {
+    let prime = true;
+    for (let j = 2; j < i; j++) {
+      if (i % j === 0) {
+        prime = false;
+        break;
+      }
+    }
+    if (prime) {
+      console.log(i);
+    }
+  }
   
 // Use for loop to iterate from 0 to 100 and print the sum of all numbers.
 let sum = 0
@@ -112,3 +135,5 @@ for(let i = 0; i <= 100; i++){
   sum += i
   console.log(sum)
 }
+
+
