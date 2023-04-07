@@ -159,6 +159,14 @@ for(let i = 0; i<=100; i++){
   
 }
 
+//print sum of evens and sum of odds as an array
+
+let sumOfEvenAndSumOfOdd = [sumOfEven, sumOfOdd]
+console.log(sumOfEvenAndSumOfOdd)
+
+
+
+
 
 
 
