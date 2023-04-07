@@ -183,6 +183,24 @@ for(let n=0; n<=4; n++){
 console.log(toArray)
 
 
+// Develop a small script which generate array of 5 random numbers and the numbers must be unique
+
+let uniqueArray = []
+
+for(let i = 0; i<=4; i++){
+   let randomNum
+   do{
+    randomNum = Math.floor(Math.random()*10)
+   }
+  while(uniqueArray.indexOf(randomNum) !== -1)
+  uniqueArray.push(randomNum)
+}
+console.log(uniqueArray)
+
+
+
+
+
 
 
 
