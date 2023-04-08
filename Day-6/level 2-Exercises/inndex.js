@@ -31,3 +31,19 @@ console.log(idArrayy)
 
 let ranId = idArrayy.join('')
 console.log(ranId)
+
+
+// Write a script which generates a random rgb color number. rgb(240,180,80)
+
+//get the three random numbers 
+
+let loopResult = []
+for(let p=1; p<=3; p++){
+    let randomNumm = Math.floor(Math.random()*256)
+    console.log(randomNumm)
+    loopResult.push(randomNumm)
+    
+}
+console.log(loopResult)
+let result = `rgb(${loopResult})`
+console.log(result)
