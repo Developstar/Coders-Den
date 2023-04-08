@@ -11,6 +11,23 @@ for(let i = 1; i<= n; i++){
 }
 
 console.log(idInArray)
-
 let randomId = idInArray.join('')
 console.log(randomId)
+
+
+// Write a script which generates a random hexadecimal number.
+
+let m = Math.floor(Math.random()*(7-5+1)) + 7
+let char = ['a','c', 'b', 'd','e','g','h','i','j','k','l','f','m','n','o','p','q',1,2,3,4,5,6,7,8,9]
+let idArrayy = []
+for(let i = 1; i<= m; i++){
+    let randomI = Math.floor(Math.random()*26)
+    let each = char[randomI]
+    idArrayy.push(each)  
+}
+
+idArrayy[0] = "#"
+console.log(idArrayy)
+
+let ranId = idArrayy.join('')
+console.log(ranId)
