@@ -47,3 +47,45 @@ for(let p=1; p<=3; p++){
 console.log(loopResult)
 let result = `rgb(${loopResult})`
 console.log(result)
+
+
+
+const countries = [
+    'Albania',
+    'Bolivia',
+    'Canada',
+    'Denmark',
+    'Ethiopia',
+    'Finland',
+    'Germany',
+    'Hungary',
+    'Ireland',
+    'Japan',
+    'Kenya'
+  ]
+  
+  
+//Using the above countries array, create the following new array
+// ["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
+
+//get the index of countries in Array
+// console.log(countries.length)
+
+const newArry = []
+
+for(let t=0; t< countries.length; t++){
+  newArry.push(countries[t].toUpperCase())
+}
+console.log(newArry)
+
+
+// Using the above countries array, create an array for countries length'.
+// [7, 7, 6, 7, 8, 7, 7, 7, 7, 5, 5]
+
+let length = []
+for(let q = 0; q<countries.length; q++){
+length.push(countries[q].length)
+}
+
+console.log(length)
+
