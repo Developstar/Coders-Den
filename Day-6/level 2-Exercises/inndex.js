@@ -89,3 +89,29 @@ length.push(countries[q].length)
 
 console.log(length)
 
+
+//Use the countries array to create the following array of arrays:
+
+// [
+//   ['Albania', 'ALB', 7],
+//   ['Bolivia', 'BOL', 7],
+//   ['Canada', 'CAN', 6],
+//   ['Denmark', 'DEN', 7],
+//   ['Ethiopia', 'ETH', 8],
+//   ['Finland', 'FIN', 7],
+//   ['Germany', 'GER', 7],
+//   ['Hungary', 'HUN', 7],
+//   ['Ireland', 'IRE', 7],
+//   ['Iceland', 'ICE', 7],
+//   ['Japan', 'JAP', 5],
+//   ['Kenya', 'KEN', 5]
+// ]
+
+
+console.log(countries)
+
+let arrayOfArray = []
+for(let w=0; w<countries.length; w++){
+ arrayOfArray.push([countries[w],((countries[w]).slice(0,3)).toUpperCase(), countries[w].length])
+}
+console.log(arrayOfArray)
