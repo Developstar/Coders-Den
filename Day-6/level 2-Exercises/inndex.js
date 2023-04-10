@@ -134,3 +134,25 @@ for(let c = 0; c<countries.length; c++){
 
 console.log(arraysOfLand)
 
+//In above countries array, check if there is a country or countries end with a substring 'ia'. If there are countries end with, print it as array. If there is no country containing the word 'ai', print 'These are countries ends without ia'.
+
+console.log(countries)
+
+// console.log('ia' === 'ia')
+// console.log(countries[2].slice(countries[2].length-2))
+let arrayOfIa = []
+let withoutAi = []
+for(let x=0; x<countries.length; x++){
+  let lastTwoLetters = countries[x].slice(countries[x].length-2)
+  if(lastTwoLetters === 'ia' === true){
+    arrayOfIa.push(countries[x])
+  }else if(lastTwoLetters === 'ia' === false){
+    withoutAi.push(countries[x])
+  }
+}
+
+
+console.log(arrayOfIa)
+
+let without =`These are countries that ends without ia': ${withoutAi.toString()}` 
+console.log(without)
