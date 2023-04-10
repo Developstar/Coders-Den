@@ -115,3 +115,22 @@ for(let w=0; w<countries.length; w++){
  arrayOfArray.push([countries[w],((countries[w]).slice(0,3)).toUpperCase(), countries[w].length])
 }
 console.log(arrayOfArray)
+
+
+
+
+// In above countries array, check if there is a country or countries containing the word 'land'. If there are countries containing 'land', print it as array. If there is no country containing the word 'land', print 'All these countries are without land'.
+// ['Finland','Ireland', 'Iceland']
+
+let arraysOfLand = []
+
+for(let c = 0; c<countries.length; c++){
+  
+ if(countries[c].includes('land') === true){
+  arraysOfLand.push(countries[c])
+ }
+  
+}
+
+console.log(arraysOfLand)
+
