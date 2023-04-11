@@ -173,3 +173,45 @@ for(let k = 0; k < sortedArray.length; k++){
   console.log(`The biggest number of character is ${countries[k]}`)
  }
 }
+
+console.log(countries)
+//Using the above countries array, find the country containing only 5 characters.
+// ['Japan', 'Kenya']
+
+for(let j = 0; j<countries.length; j++){
+  if(countries[j].length === 5){
+    console.log(`Countries with 5 characters  are : ${countries[j]}`)
+  }
+}
+
+
+//Find the longest word in the webTechs array
+const webTechs = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'React',
+  'Redux',
+  'Node',
+  'MongoDB'
+]
+
+console.log(webTechs)
+//get the lenght of each items in the array
+let lengthOfEachItems= []
+for(let h=0; h<webTechs.length; h++){
+  lengthOfEachItems.push(webTechs[h].length)
+}
+
+console.log(lengthOfEachItems)
+ lengthOfEachItems.sort((a, b) => a - b);
+console.log(lengthOfEachItems)
+//find the longest word
+console.log(webTechs)
+
+for(let g=0; g < webTechs.length; g++){
+  let sortedWordLength = lengthOfEachItems[lengthOfEachItems.length-1]
+  if(webTechs[g].length === sortedWordLength){
+    console.log(webTechs[g])
+  }
+}
