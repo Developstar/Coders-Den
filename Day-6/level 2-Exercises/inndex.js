@@ -270,6 +270,29 @@ for(let e =fruit.length-1; e >= 0; e--){
 }
 
 
+// Print all the elements of array as shown below.
+
+const fullStack = [
+  ['HTML', 'CSS', 'JS', 'React'],
+  ['Node', 'Express', 'MongoDB']
+]
+
+// HTML
+// CSS
+// JS
+// REACT
+// NODE
+// EXPRESS
+// MONGODB
+
+console.log(fullStack)
+let join = fullStack[0].concat(fullStack[1])
+console.log(join)
+for(let y=0; y<join.length; y++){
+console.log(join[y])
+}
+
+
 
 
 
