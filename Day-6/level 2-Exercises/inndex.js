@@ -228,3 +228,25 @@ for(let f = 0; f<webTechs.length; f++){
 }
 
 console.log(wtArrayofArr)
+
+
+
+
+//An application created using MongoDB, Express, React and Node is called a MERN stack app. Create the acronym MERN by using the array mernStack
+
+let mernstack  = [
+'MongoDB',
+'Express',
+'React',
+'Node',
+]
+
+
+//create the acronym MERN by using the array mernStack
+let acronym = []
+for(let d = 0; d<mernstack.length; d++){
+  acronym.push(mernstack[d][0])
+}
+
+let oga = acronym.join('')
+console.log(oga)
