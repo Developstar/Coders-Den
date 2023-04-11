@@ -61,7 +61,7 @@ const countries = [
     'Hungary',
     'Ireland',
     'Japan',
-    'Kenya'
+    'Kenya',
   ]
   
   
@@ -156,3 +156,20 @@ console.log(arrayOfIa)
 
 let without =`These are countries that ends without ia': ${withoutAi.toString()}` 
 console.log(without)
+
+
+//Using the above countries array, find the country containing the biggest number of characters.
+let lengthOfEach = []
+console.log(countries)
+for(let z = 0; z<countries.length; z++){
+lengthOfEach.push(countries[z].length) 
+}
+console.log(lengthOfEach)
+let sortedArray = lengthOfEach.sort()
+console.log(sortedArray)
+
+for(let k = 0; k < sortedArray.length; k++){
+ if(countries[k].length === sortedArray[sortedArray.length-1]){
+  console.log(`The biggest number of character is ${countries[k]}`)
+ }
+}
