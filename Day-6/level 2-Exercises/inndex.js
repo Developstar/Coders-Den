@@ -215,3 +215,16 @@ for(let g=0; g < webTechs.length; g++){
     console.log(webTechs[g])
   }
 }
+
+
+
+//Use the webTechs array to create the following array of arrays:
+// [["HTML", 4], ["CSS", 3],["JavaScript", 10],["React", 5],["Redux", 5],["Node", 4],["MongoDB", 7]]
+console.log(webTechs)
+
+let wtArrayofArr = []
+for(let f = 0; f<webTechs.length; f++){
+  wtArrayofArr.push([webTechs[f], webTechs[f].length])
+}
+
+console.log(wtArrayofArr)
