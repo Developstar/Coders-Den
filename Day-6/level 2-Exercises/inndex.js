@@ -248,5 +248,19 @@ for(let d = 0; d<mernstack.length; d++){
   acronym.push(mernstack[d][0])
 }
 
-let oga = acronym.join('')
-console.log(oga)
+acronym = acronym.join('')
+console.log(acronym)
+
+
+
+
+//Iterate through the array, ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"] using a for loop or for of loop and print out the items.
+
+let array = ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"]
+for(let w= 0; w<array.length; w++){
+  console.log(array[w])
+}
+
+
+
+
