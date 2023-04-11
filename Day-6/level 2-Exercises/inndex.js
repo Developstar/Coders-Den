@@ -262,5 +262,15 @@ for(let w= 0; w<array.length; w++){
 }
 
 
+//This is a fruit array , ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop without using a reverse method.
+
+let fruit = ['banana', 'orange', 'mango', 'lemon'];
+for(let e =fruit.length-1; e >= 0; e--){
+  console.log(fruit[e])
+}
+
+
+
+
 
 
