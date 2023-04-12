@@ -105,3 +105,15 @@ for(let i=0; i<countries.length; i++){
     }
 }
 console.log(hightestNumOfChar)
+
+
+
+//Extract all the countries containing only five characters from the countries array and print it as array
+let contriesWith5Char = []
+for(let i = 0; i<countries.length; i++){
+  if(countries[i].length === 5){
+    contriesWith5Char.push(countries[i])
+  }
+}
+
+console.log(contriesWith5Char)
