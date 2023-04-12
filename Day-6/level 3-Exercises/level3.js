@@ -117,3 +117,14 @@ for(let i = 0; i<countries.length; i++){
 }
 
 console.log(contriesWith5Char)
+
+
+//Extract all the countries containing two or more words from the countries array and print it as array
+let countriesWith2WordsUpw = []
+for(let i=0; i<countries.length; i++){
+  if(countries[i].length >= 2){
+    countriesWith2WordsUpw.push(countries[i])
+  }
+}
+
+console.log(countriesWith2WordsUpw)
