@@ -128,3 +128,16 @@ for(let i=0; i<countries.length; i++){
 }
 
 console.log(countriesWith2WordsUpw)
+
+
+//Reverse the countries array and capitalize each country and stored it as an array
+console.log(countries)
+//reverse countries
+let reversedCountries = countries.reverse();
+console.log(reversedCountries);
+//capitalize each country and stored it as an array
+let capitalizedCountries = []
+for(let i=0; i<reversedCountries.length; i++){
+  capitalizedCountries.push(reversedCountries[i].toUpperCase())
+}
+console.log(capitalizedCountries)
