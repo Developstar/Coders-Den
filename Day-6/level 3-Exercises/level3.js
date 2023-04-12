@@ -67,3 +67,17 @@ const webTechs = [
 
   let sortedMernStack = mernStack.sort();
   console.log(sortedMernStack)
+
+
+
+  //Extract all the countries containing the word 'land' from the countries array and print it as array
+console.log(countries)
+
+
+let countriesWithLand = []
+for(let i=0; i<countries.length; i++){
+    if(countries[i].includes('land')=== true){
+        countriesWithLand.push(countries[i])
+    }
+}
+console.log(countriesWithLand)
