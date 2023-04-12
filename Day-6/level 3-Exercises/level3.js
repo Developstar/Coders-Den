@@ -46,3 +46,24 @@ const allCountries = [
   console.log(copiedArray)
 let sortedCountries = copiedArray.sort()
 console.log(sortedCountries)
+
+
+
+//Sort the webTechs array and mernStack array
+const webTechs = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Redux',
+    'Node',
+    'MongoDB'
+  ]
+  
+  const mernStack = ['MongoDB', 'Express', 'React', 'Node']
+
+  let sortedWebTechs = webTechs.sort();
+  console.log(sortedWebTechs)
+
+  let sortedMernStack = mernStack.sort();
+  console.log(sortedMernStack)
