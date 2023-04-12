@@ -81,3 +81,27 @@ for(let i=0; i<countries.length; i++){
     }
 }
 console.log(countriesWithLand)
+
+
+//Find the country containing the hightest number of characters in the countries array
+console.log(countries)
+//get each countries length
+let countriesLength = []
+for(let i=0; i<countries.length; i++){
+    countriesLength.push(countries[i].length)
+}
+//get the length of the longest word in the array.
+console.log(countriesLength)
+let sortLength = countriesLength.sort()
+console.log(sortLength)
+let longestWrdLength = sortLength[sortLength.length-1] 
+console.log(longestWrdLength)
+
+
+let hightestNumOfChar = []
+for(let i=0; i<countries.length; i++){
+    if(countries[i].length === longestWrdLength === true ){
+        hightestNumOfChar.push(countries[i])
+    }
+}
+console.log(hightestNumOfChar)
