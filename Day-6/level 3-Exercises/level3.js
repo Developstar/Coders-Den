@@ -21,3 +21,28 @@ for(let q=0; q<countries.length; q++){
 copiedCountries[0] = 'Togo'
 console.log(copiedCountries)
 console.log(countries)
+
+
+//Arrays are mutable. Create a copy of array which does not modify the original. Sort the copied array and store in a variable sortedCountries
+
+const allCountries = [
+    'Albania',
+    'Kenya',
+    'Bolivia',
+    'Canada',
+    'Hungary',
+    'Denmark',
+    'Finland',
+    'Germany',
+    'Ireland',
+    'Japan',
+    'Ethiopia'
+  ]
+
+  let copiedArray = [];
+  for(let i = 0; i<allCountries.length; i++){
+    copiedArray.push(allCountries[i])
+  }
+  console.log(copiedArray)
+let sortedCountries = copiedArray.sort()
+console.log(sortedCountries)
