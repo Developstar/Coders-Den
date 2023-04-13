@@ -35,3 +35,13 @@ function areaOfRectangle(l,w){
 }
 
 areaOfRectangle(5,15)
+
+
+//A perimeter of a rectangle is calculated as follows: perimeter= 2x(length + width). Write a function which calculates perimeterOfRectangle.
+
+function perimeterOfRectangle(length,width){
+  perimeter = 2*(length + width)
+  console.log(perimeter)
+}
+
+perimeterOfRectangle(10,5)
