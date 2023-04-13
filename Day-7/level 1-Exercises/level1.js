@@ -100,3 +100,12 @@ function speedOfMovingObj(distance, time){
   console.log(`The speed of the moving object = ${speed} m/s`)
 
 
+//Weight of a substance is calculated as follows: weight = mass x gravity. Write a function which calculates weight.
+
+function weightOfSubstance(m,g){
+  let weight = m*g
+  return weight
+}
+ weigth = weightOfSubstance(5,6);
+console.log(`The weigth of your substance = ${weigth}`)
+
