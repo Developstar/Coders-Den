@@ -77,3 +77,26 @@ function circumOfCircle(r){
 }
 
 circumOfCircle(3)
+
+
+//Density of a substance is calculated as follows:density= mass/volume. Write a function which calculates density.
+
+function densityOfSubstance(m,v){
+  density = m/v
+  console.log(density)
+}
+
+densityOfSubstance(55,15)
+
+//Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. Write a function which calculates a speed of a moving object.
+
+function speedOfMovingObj(distance, time){
+ let speed = distance/time
+  return speed
+}
+
+  speed = speedOfMovingObj(100, 3)
+
+  console.log(`The speed of the moving object = ${speed} m/s`)
+
+
