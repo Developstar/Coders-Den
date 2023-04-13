@@ -15,3 +15,14 @@ function fullName(firstName, lastName){
 }
 
 fullName('Boluwatife','Adeyeye')
+
+
+//Declare a function addNumbers and it takes two two parameters and it returns sum.
+
+function addNumbers(y,z){
+  let sum = y+z
+  console.log(sum)
+}
+
+addNumbers(5,6)
+
