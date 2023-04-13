@@ -26,3 +26,12 @@ function addNumbers(y,z){
 
 addNumbers(5,6)
 
+
+//An area of a rectangle is calculated as follows: area = length x width. Write a function which calculates areaOfRectangle.
+
+function areaOfRectangle(l,w){
+  area = l*w
+  console.log(area)
+}
+
+areaOfRectangle(5,15)
