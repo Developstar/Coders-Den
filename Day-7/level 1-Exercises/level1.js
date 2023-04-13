@@ -109,3 +109,12 @@ function weightOfSubstance(m,g){
  weigth = weightOfSubstance(5,6);
 console.log(`The weigth of your substance = ${weigth}`)
 
+
+//Temperature in oC can be converted to oF using this formula: oF = (oC x 9/5) + 32. Write a function which convert oC to oF convertCelsiusToFahrenheit.
+
+function convertTempToOf(oC){
+  let toOf = (oC * 9/5) + 32.
+  console.log(toOf)
+}
+
+convertTempToOf(15)
