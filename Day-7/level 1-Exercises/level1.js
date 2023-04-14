@@ -147,3 +147,33 @@ function bodyMassIndex(weight,height){
 }
 
 bodyMassIndex(72,185)
+
+
+
+//Write a function called checkSeason, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.
+
+function checkSeason(month){
+  switch(month){
+    case 'September' :
+    case 'October':
+    case 'November':
+      console.log('The season is Autumn')
+    break;
+    case 'March':
+    case 'April':
+    case 'May':
+      console.log('The season is spring')
+      break;
+    case 'June':
+    case 'July':
+    case 'August':
+      console.log('The season is summer')
+      break;
+    case 'December':
+    case 'January':
+    case 'February':
+      console.log('The season is winter')
+  }
+}
+
+checkSeason('April')
