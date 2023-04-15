@@ -31,3 +31,18 @@ function swapValues(x, y){
 }
 
 swapValues(5,4)
+
+
+//Declare a function name reverseArray. It takes array as a parameter and it returns the reverse of the array (don't use method).
+
+function reverseArray(array){
+    let reverse = []
+    for(let i = array.length-1; i>=0; i--){
+        reverse.push(array[i])
+    }
+    console.log(reverse)
+}
+
+reverseArray([1,2,3,4])
+
+
