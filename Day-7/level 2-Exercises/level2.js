@@ -46,3 +46,20 @@ function reverseArray(array){
 reverseArray([1,2,3,4])
 
 
+
+//Declare a function name capitalizeArray. It takes array as a parameter and it returns the - capitalizedarray.
+
+function capitalizedArray(array){
+    let capital = []
+    for(let i=0; i<array.length; i++){
+        capital.push(array[i].toUpperCase())
+    }
+    console.log(capital)
+}
+
+capitalizedArray(['ade', 'olu', 'setemi'])
+
+
+
+
+
