@@ -60,6 +60,15 @@ function capitalizedArray(array){
 capitalizedArray(['ade', 'olu', 'setemi'])
 
 
+// Declare a function name addItem. It takes an item parameter and it returns an array after adding the item
+
+function addItem(item){
+    let insideArray = [item]
+console.log(insideArray)
+}
+
+addItem('ade')
+
 
 
 
