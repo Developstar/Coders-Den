@@ -10,3 +10,11 @@ function printArray(array){
 printArray(array)
 
 
+//Write a function name showDateTime which shows time in this format: 08/01/2020 04:08 using the Date object.
+
+function showDateTime(){
+let now = new Date(), day = now.getDate(), month = now.getMonth(), year = now.getFullYear(), hour = now.getHours(), minute = now.getMinutes()
+console.log(`${day}/${month}/${year} ${hour}:${minute}`)
+}
+
+showDateTime()
