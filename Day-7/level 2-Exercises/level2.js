@@ -70,5 +70,22 @@ console.log(insideArray)
 addItem('ade')
 
 
+//Write a function which takes any number of arguments and return the sum of the arguments
+
+// sum(1, 2, 3) // -> 6
+// sum(1, 2, 3, 4) // -> 10
+
+let sumOfNum = (...args)=>{
+    let sum = 0;
+    for(let i=0; i<args.length; i++){
+        sum += args[i] 
+    }
+    console.log(sum)
+}
+
+sumOfNum(1,3,5,6)
+
+
+
 
 
