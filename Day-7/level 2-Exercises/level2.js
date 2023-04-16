@@ -86,6 +86,23 @@ let sumOfNum = (...args)=>{
 sumOfNum(1,3,5,6)
 
 
+//Write a function which generates a randomUserIp.
+let possibleNums = [1,2,3,4,5,6,7,8,9]
+let random = Math.floor(Math.random()*10)
+console.log(random)
 
+function randomUserIp(){
+    let randomArray = []
+    
+    for(let i=0; i<=11; i++){
+        // let possibleNums = [1,2,3,4,5,6,7,8,9]
+        let random = Math.floor(Math.random()*10)
+        randomArray.push(random)
+    }
+    console.log(randomArray)
+   console.log(`117.${randomArray[0]}${randomArray[1]}${randomArray[2]}.${randomArray[3]}${randomArray[4]}.${randomArray[5]}${randomArray[6]}${randomArray[7]}`)
+}
+
+randomUserIp()
 
 
