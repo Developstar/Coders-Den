@@ -22,6 +22,17 @@ let getobjectValues = Object.values(dog);
 console.log(getobjectValues)
 
 
+//Set new properties the dog object: breed, getDogInfo
+dog.breed = 'Rot'
+dog.getDogInfo = function(){
+  return  `These are the details of my dog : \n Name: ${this.name}, \n legs: ${this.legs}, \n color: ${this.color},\n age: ${this.age}`
+}
+console.log(dog.getDogInfo())
+console.log(dog)
+
+
+
+
 
 
 
