@@ -52,10 +52,9 @@ const users = {
   }
   
   //Find the person who has many skills in the users object.
-  
+  let person = Object.entries(users)
+
   function highest(){
-    let person = Object.entries(users)
-    console.log(person)
 let skillsNum = [];
 for(let i=0; i<person.length; i++){
   skillsNum.push(person[i][1].skills.length)
@@ -70,6 +69,23 @@ for(let i=0; i<person.length; i++){
 
   }
 
-
-  
   highest()
+
+
+
+  //Find people who are MERN stack developer from the users object
+
+  function mernDevs(){
+
+let mernStackDev = []
+for(let i=0; i<person.length; i++){
+  if(person[i][1].skills.includes('MongoDB') && person[i][1].skills.includes('Express') && person[i][1].skills.includes('React') && person[i][1].skills.includes('Node')){
+    let individuals = person[i][0];
+    mernStackDev.push(individuals)
+  }
+}
+console.log(mernStackDev)
+
+  }
+
+  mernDevs()
