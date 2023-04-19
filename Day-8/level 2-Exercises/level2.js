@@ -89,3 +89,19 @@ console.log(mernStackDev)
   }
 
   mernDevs()
+
+
+  //Set your name in the users object without modifying the original users object
+
+console.log(users)
+
+let modifiedUsers = Object.assign(users)
+modifiedUsers.Developstar = {
+  email: 'deyeye99@gmail.com',
+  skills: ['HTML', 'CSS', 'JavaScript', 'React'],
+  age: 25,
+  isLoggedIn: false,
+  points: 40
+}
+
+console.log(modifiedUsers)
