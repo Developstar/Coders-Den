@@ -116,3 +116,15 @@ console.log(keyOfProp)
 //Get all the values of users object
 let valuesOfUsers = Object.values(users)
 console.log(valuesOfUsers)
+
+
+//Use the countries object to print a country name, capital, populations and languages.
+
+let countries = {
+  name: 'Nigeria',
+  capital: 'Abuja',
+  population: '213.4 million',
+  languages: 'Yoruba, Igbo, Hausa'
+}
+
+console.log(countries)
