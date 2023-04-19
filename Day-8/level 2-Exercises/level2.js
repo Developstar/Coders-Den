@@ -111,3 +111,8 @@ console.log(modifiedUsers)
 //Get all keys or properties of users object
 let keyOfProp = Object.keys(users)
 console.log(keyOfProp)
+
+
+//Get all the values of users object
+let valuesOfUsers = Object.values(users)
+console.log(valuesOfUsers)
