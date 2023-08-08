@@ -8,3 +8,13 @@ let idTwo = document.querySelector("#second-paragraph");
 let idThree = document.querySelector('#third-paragraph')
 let idFour = document.querySelector('#fourth-paragraph')
 console.log(idOne,idTwo,idThree,idFour);
+
+// Get all the p as nodeList using document.querySelectorAll(tagname) and by their tag name
+let allElements = document.querySelectorAll('p');
+console.log(allElements)
+
+//Loop through the nodeList and get the text content of each paragraph
+
+for(i=0; i<allElements.length; i++){
+    console.log(allElements[i].textContent)
+}
