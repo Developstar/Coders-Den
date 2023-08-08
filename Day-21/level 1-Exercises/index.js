@@ -18,3 +18,7 @@ console.log(allElements)
 for(i=0; i<allElements.length; i++){
     console.log(allElements[i].textContent)
 }
+
+//Set a text content to paragraph the fourth paragraph,Fourth Paragraph
+let fourthParagraph = document.getElementById("fourth-paragraph");
+fourthParagraph.textContent = "Fourth Paragraph"
