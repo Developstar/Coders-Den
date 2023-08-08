@@ -2,4 +2,9 @@
 
 let firstElement = document.querySelector("p");
 
-
+// Get each of the the paragraph using document.querySelector('#id') and by their id
+let idOne = document.querySelector("#first-paragraph");
+let idTwo = document.querySelector("#second-paragraph");
+let idThree = document.querySelector('#third-paragraph')
+let idFour = document.querySelector('#fourth-paragraph')
+console.log(idOne,idTwo,idThree,idFour);
