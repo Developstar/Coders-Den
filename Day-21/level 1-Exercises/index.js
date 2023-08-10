@@ -22,3 +22,18 @@ for(i=0; i<allElements.length; i++){
 //Set a text content to paragraph the fourth paragraph,Fourth Paragraph
 let fourthParagraph = document.getElementById("fourth-paragraph");
 fourthParagraph.textContent = "Fourth Paragraph"
+
+//Set id and class attribute for all the paragraphs using different attribute setting methods
+let allTags = document.querySelectorAll('p');
+
+
+allTags.forEach((allTag, i)=>{
+    if(i <= 1){
+        allTag.setAttribute('class', 'primaryClass')
+        allTag.setAttribute('id', 'primaryId');
+     
+    }else{
+        allTag.className =  "secondaryClass";
+        allTag.id = "secondaryId";
+    }
+})
